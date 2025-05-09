@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'MedievalSharp', cursive;
+    background: url('https://www.transparenttextures.com/patterns/old-map.png');
+    color: #2e1b10;
+}
+
+header {
+    background: linear-gradient(to bottom, #7b4f2b, #5b3c1f);
+    color: #f0e6d2;
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.map-container {
+    position: relative;
+    max-width: 1000px;
+    margin: 20px auto;
+    border: 6px ridge #c8aa6e;
+    box-shadow: 0 0 25px #0005;
+    background-color: #e9dbc0;
+}
+
+.map {
+    width: 100%;
+    display: block;
+    border-bottom: 2px solid #a78d62;
+}
+
+.locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgba(255, 249, 236, 0.8);
+}
+
+.location {
+    width: 200px;
+    background-color: #fefae0;
+    border: 2px solid #bfa16e;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: #3e2c14;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.location:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+    background-color: #fff8dc;
+}
+
+.location h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #5a3921;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #7b4f2b;
+    color: #f8f1e4;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.photo {
+   text-align: center;
+}
+
+.story {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgba(255, 248, 220, 0.85);
+    border: 5px double #bfa16e;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    font-family: 'MedievalSharp', cursive;
+    text-align: justify;
+}
+
+.story h2 {
+    font-size: 32px;
+    color: #4a2c1a;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px #e9dbc0;
+}
+
+.story p {
+    font-size: 18px;
+    color: #3e2c14;
+    margin-bottom: 15px;
+}
